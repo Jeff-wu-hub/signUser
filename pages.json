@@ -1,0 +1,329 @@
+
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/index1/index",
+			"style": {
+				 
+				"navigationBarTitleText": "首页", 
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/active/active",
+			"style": {
+				 
+				"navigationBarTitleText": "活动"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				 
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path":"pages/active/singleActive",
+			"style":{
+				"navigationBarTitleText":"单次签到"
+			}
+		},
+		{
+			"path":"pages/active/circleActive",
+			"style":{
+				"navigationBarTitleText":"团队活动"
+			}
+		},
+		{
+			"path":"pages/active/activeDetail",
+			"style":{
+				"navigationBarTitleText":"签到管理"
+			}
+		},
+		{
+			"path":"pages/index1/index1",
+			"style":{
+				"navigationBarTitleText":"活动信息",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/active/activeDetail/qrcode",
+			"style":{
+				"navigationBarTitleText":"签到二维码",
+				"navigationBarBackgroundColor":"#0A98D5",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path":"pages/active/activeDetail/displaySignInfo",
+			"style":{
+				"navigationBarTextStyle":"white",
+				"navigationBarTitleText":"签到数据",
+				"navigationBarBackgroundColor":"#0A98D5",
+				 "navigationStyle":"custom"
+				
+			}
+		},
+		{
+			"path":"pages/active/activeDetail/editActive",
+			"style":{
+				"navigationBarBackgroundColor":"#0A98D5",
+				"navigationBarTitleText":"编辑活动",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path":"pages/active/activeDetail/leaveMsg",
+			"style":{
+				"navigationBarBackgroundColor":"#0A98D5",
+				"navigationBarTitleText":"留言信息",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path":"pages/index1/signinput",
+			"style":{
+				"navigationBarBackgroundColor":"#BAF1F4",
+				"navigationBarTitleText":"填写签到"
+			}
+		},		
+		{
+            "path" : "pages/mine/manage",
+            "style" : {
+				"navigationBarBackgroundColor":"#0A98D5",
+				"navigationBarTitleText":"我管理的活动",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+		    "path" : "pages/mine/joinIn",
+		    "style" : {
+				"navigationBarBackgroundColor":"#0A98D5",
+				"navigationBarTitleText":"我参加的活动",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path":"pages/active/text",
+			"style":{
+				"navigationBarBackgroundColor":"#0A98D5",
+				"navigationBarTitleText":"测试",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path":"pages/active/activeDetail/jionedActivity",
+			"style":{
+				"navigationBarBackgroundColor":"#0A98D5",
+				"navigationBarTitleText":"参加的活动",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path":"pages/mine/light",
+			"style":{
+				"navigationBarBackgroundColor":"#0A98D5",
+				"navigationBarTitleText":"光伏阵列",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path":"pages/active/activeDetail/chooseLocationView",
+			"style":{
+				 
+				"navigationBarTitleText":"选择签到地理位置信息"
+				 
+			}
+		},
+		{
+			"path":"pages/active/circleActiveDisplay",
+			"style":{
+				"navigationBarTitleText":"团队签到管理"
+			}
+		},
+		 
+		{
+			"path":"pages/active/team/createTeam",
+			"style":{
+				"navigationBarTitleText":"创建团队"
+			}
+		},
+		{
+			"path":"pages/mine/myTeam",
+			"style":{
+				"navigationBarTitleText":"我的团队"
+			}
+		},
+		{
+			"path":"pages/active/team/teamDetail",
+			"style":{
+				"navigationBarTitleText":"团队管理"
+			}
+		},
+		{
+			"path":"pages/mine/myLight",
+			"style":{
+				"navigationBarTitleText":"光伏阵列系统"
+			}
+		},
+		{
+			"path":"pages/mine/environment",
+			"style":{
+				"navigationBarTitleText":"实时环境"
+			}
+		},
+		{
+			"path":"pages/active/team/teamSignInfo",
+			"style":{
+				"navigationBarTitleText":"签到数据"
+			}
+		},
+		{
+			"path":"pages/active/team/teamActivities",
+			"style":{
+				"navigationBarTitleText":"团队活动"
+			}
+		},
+		{
+			"path":"pages/active/team/teamQRcode",
+			"style":{
+				"navigationBarTitleText":"团队二维码"
+			}
+		},
+		{
+			"path":"pages/active/team/teamMember",
+			"style":{
+				"navigationBarTitleText":"团队成员"
+			}
+		},
+		{
+			"path":"pages/active/team/joinInTeam",
+			"style":{
+				"navigationBarTitleText":"加入团队"
+			}
+		},
+		{
+			"path":"pages/active/team/teamAdmin",
+			"style":{
+				"navigationBarTitleText":"管理员"
+			}
+		},
+		
+        {
+        	"path":"pages/mine/scheme",
+        	"style":{
+        		"navigationBarTitleText":"策略"
+        	}
+        }
+        ,{
+            "path" : "pages/mine/explain",
+            "style" : {
+				"navigationBarTitleText":"使用说明"
+			}
+        },
+		{
+		    "path" : "pages/active/team/teamSignDatas",
+		    "style" : {
+				"navigationBarTitleText":"签到数据"
+			}
+		},
+		{
+			"path":"pages/active/team/teamMemberDetail",
+			"style":{
+				"navigationBarTitleText":"成员管理"
+			}
+		},
+		{
+			"path":"pages/active/team/teamSignSegTimeInfo",
+			"style":{
+				"navigationBarTitleText":"时段数据"
+			}
+		}
+    ], 
+	 
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor":"#F1F1F1",
+		
+		"usingComponents":{
+			"van-button": "/static/vant/button/index",
+			 "van-panel": "/static/vant/panel/index",
+			 "van-field": "/static/vant/field/index",
+			 "van-checkbox": "/static/vant/checkbox/index",
+			 "van-checkbox-group": "/static/vant/checkbox-group/index",
+			 "van-cell": "/static/vant/cell/index",
+			 "van-cell-group": "/static/vant/cell-group/index",
+			 "van-cell": "/static/vant/cell/index",
+			 "van-cell-group": "/static/vant/cell-group/index",
+			 "van-image": "/static/vant/image/index",
+			 "van-circle":"/static/vant/circle/index" ,
+			 "van-overlay": "/static/vant/overlay/index",
+			 "van-grid": "/static/vant/grid/index",
+			 "van-grid-item": "/static/vant/grid-item/index",
+			 "van-notify": "/static/vant/notify/index",
+			 "van-notice-bar": "/static/vant/notice-bar/index",
+			 "van-dialog": "/static/vant/dialog/index",
+			 "van-skeleton": "/static/vant/skeleton/index",
+			 "van-collapse": "/static/vant/collapse/index",
+			 "van-collapse-item": "/static/vant/collapse-item/index",
+			 "van-divider": "/static/vant/divider/index",
+			 "van-tag": "/static/vant/tag/index",
+			 "van-search": "/static/vant/search/index",
+			 "van-icon": "/static/vant/icon/index",
+			 "van-toast": "/static/vant/toast/index",
+			 "van-action-sheet": "/static/vant/action-sheet/index",
+			 "van-datetime-picker": "/static/vant/datetime-picker/index",
+			 "van-grid": "/static/vant/grid/index",
+			 "van-grid-item": "/static/vant/grid-item/index",
+			 "van-swipe-cell": "/static/vant/swipe-cell/index",
+			 "van-tab": "/static/vant/tab/index",
+			 "van-tabs": "/static/vant/tabs/index",
+			 "van-calendar": "/static/vant/calendar/index",
+			 "van-radio": "/static/vant/radio/index",
+			 "van-radio-group": "/static/vant/radio-group/index" 
+			 
+		}
+	},
+	
+	"tabBar":{
+		"color":"#8f8f8f",
+		"selectedColor":"#6cc7f6",
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index1/index",
+				"iconPath":"static/imgs/tabber/home.png",
+				"selectedIconPath":"static/imgs/tabber/home1.png"
+			},
+			{
+				"text":"活动",
+				"pagePath":"pages/active/active",
+				"iconPath":"static/imgs/tabber/add.png",
+				"selectedIconPath":"static/imgs/tabber/add1.png"
+			},
+			{
+				"text":"我的",
+				"pagePath":"pages/mine/mine",
+				"iconPath":"static/imgs/tabber/mine.png",
+				"selectedIconPath":"static/imgs/tabber/mine1.png"
+			}
+			
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+
+}

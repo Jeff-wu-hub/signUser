@@ -1,0 +1,26 @@
+
+#qrcode-container.data-v-d254b454{
+	height: 100%;
+}
+.flex-center.data-v-d254b454{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	background-color: #4CD964;
+	width: 100%;
+	height: 600rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.margintop20.data-v-d254b454{
+	margin-top: 20rpx;
+}
+

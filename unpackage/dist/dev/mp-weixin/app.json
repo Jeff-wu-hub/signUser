@@ -1,0 +1,109 @@
+{
+  "pages": [
+    "pages/index1/index",
+    "pages/active/active",
+    "pages/mine/mine",
+    "pages/active/singleActive",
+    "pages/active/circleActive",
+    "pages/active/activeDetail",
+    "pages/index1/index1",
+    "pages/active/activeDetail/qrcode",
+    "pages/active/activeDetail/displaySignInfo",
+    "pages/active/activeDetail/editActive",
+    "pages/active/activeDetail/leaveMsg",
+    "pages/index1/signinput",
+    "pages/mine/manage",
+    "pages/mine/joinIn",
+    "pages/active/text",
+    "pages/active/activeDetail/jionedActivity",
+    "pages/mine/light",
+    "pages/active/activeDetail/chooseLocationView",
+    "pages/active/circleActiveDisplay",
+    "pages/active/team/createTeam",
+    "pages/mine/myTeam",
+    "pages/active/team/teamDetail",
+    "pages/mine/myLight",
+    "pages/mine/environment",
+    "pages/active/team/teamSignInfo",
+    "pages/active/team/teamActivities",
+    "pages/active/team/teamQRcode",
+    "pages/active/team/teamMember",
+    "pages/active/team/joinInTeam",
+    "pages/active/team/teamAdmin",
+    "pages/mine/scheme",
+    "pages/mine/explain",
+    "pages/active/team/teamSignDatas",
+    "pages/active/team/teamMemberDetail",
+    "pages/active/team/teamSignSegTimeInfo"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F1F1F1"
+  },
+  "tabBar": {
+    "color": "#8f8f8f",
+    "selectedColor": "#6cc7f6",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index1/index",
+        "iconPath": "static/imgs/tabber/home.png",
+        "selectedIconPath": "static/imgs/tabber/home1.png"
+      },
+      {
+        "text": "活动",
+        "pagePath": "pages/active/active",
+        "iconPath": "static/imgs/tabber/add.png",
+        "selectedIconPath": "static/imgs/tabber/add1.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/imgs/tabber/mine.png",
+        "selectedIconPath": "static/imgs/tabber/mine1.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "通过地理位置判断签到范围是否有效"
+    }
+  },
+  "usingComponents": {
+    "van-button": "/static/vant/button/index",
+    "van-panel": "/static/vant/panel/index",
+    "van-field": "/static/vant/field/index",
+    "van-checkbox": "/static/vant/checkbox/index",
+    "van-checkbox-group": "/static/vant/checkbox-group/index",
+    "van-cell": "/static/vant/cell/index",
+    "van-cell-group": "/static/vant/cell-group/index",
+    "van-image": "/static/vant/image/index",
+    "van-circle": "/static/vant/circle/index",
+    "van-overlay": "/static/vant/overlay/index",
+    "van-grid": "/static/vant/grid/index",
+    "van-grid-item": "/static/vant/grid-item/index",
+    "van-notify": "/static/vant/notify/index",
+    "van-notice-bar": "/static/vant/notice-bar/index",
+    "van-dialog": "/static/vant/dialog/index",
+    "van-skeleton": "/static/vant/skeleton/index",
+    "van-collapse": "/static/vant/collapse/index",
+    "van-collapse-item": "/static/vant/collapse-item/index",
+    "van-divider": "/static/vant/divider/index",
+    "van-tag": "/static/vant/tag/index",
+    "van-search": "/static/vant/search/index",
+    "van-icon": "/static/vant/icon/index",
+    "van-toast": "/static/vant/toast/index",
+    "van-action-sheet": "/static/vant/action-sheet/index",
+    "van-datetime-picker": "/static/vant/datetime-picker/index",
+    "van-swipe-cell": "/static/vant/swipe-cell/index",
+    "van-tab": "/static/vant/tab/index",
+    "van-tabs": "/static/vant/tabs/index",
+    "van-calendar": "/static/vant/calendar/index",
+    "van-radio": "/static/vant/radio/index",
+    "van-radio-group": "/static/vant/radio-group/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}

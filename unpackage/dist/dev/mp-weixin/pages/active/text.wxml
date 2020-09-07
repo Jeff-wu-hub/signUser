@@ -1,0 +1,1 @@
+<view><block wx:for="{{signInfoArray}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view><view>{{item.signId}}</view></view></block></view>

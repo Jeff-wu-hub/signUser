@@ -1,0 +1,56 @@
+
+.width80.data-v-37de71f4{
+	width: 80%;
+}
+#activeDetail-container.data-v-37de71f4{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.activeDetailFirstPart.data-v-37de71f4{
+	width: 100%;
+}
+.activeDetailSecondPart.data-v-37de71f4{
+	margin-top: 10rpx;
+	width: 100%;
+	
+	background-color: #2C405A;
+}
+.activeDetailThirdPart.data-v-37de71f4{
+	width: 100%;
+	margin-top: 10rpx ;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.item.data-v-37de71f4{
+}
+.van-grid-button.data-v-37de71f4{
+	height: 100%;
+	width: 100%;
+	border: none;
+}
+.margintop20.data-v-37de71f4{
+	margin-top: 20rpx;
+}
+.center.data-v-37de71f4{
+	text-align: center;
+}
+
+

@@ -1,0 +1,41 @@
+
+.width80{
+	width: 80%;
+}
+.joinInTeamContainer{
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.joinInTeam-firstPart{
+	width: 100%;
+}
+.joinInTeam-secondPart{
+	
+	margin-top: 20rpx;
+	width: 100%;
+}
+.joinInTeam-thirdPart{
+	margin-top: 20rpx;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+
